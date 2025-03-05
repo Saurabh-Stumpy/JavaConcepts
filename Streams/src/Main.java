@@ -12,7 +12,7 @@ public class Main {
         Stream<Integer> str =num.stream().filter(n->n%2==0);
 
         List<Integer> even = str.collect(Collectors.toList());
- 
+
         System.out.println(even);
 
     }
